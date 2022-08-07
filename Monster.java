@@ -1,0 +1,14 @@
+public class Monster {
+
+    public String type;
+    public String noise;
+    public int health;
+  
+       //parameterized constructor
+      public Monster(String type, String noise, int health) {
+        this.type = type;
+        this.noise = noise;
+        this.health = health;
+        
+      }
+  }
